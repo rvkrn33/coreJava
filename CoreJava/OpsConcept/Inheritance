@@ -1,0 +1,45 @@
+
+Derived /child / subclass inherits all the properties and methods from base/ parent/ superclass
+
+public Grandpa {
+	//variable
+	
+	//methods
+}
+
+//Single level inheritance
+public Father extends Grandpa{
+
+	
+}
+
+//Multilevel
+public Child extends Father{
+
+	
+}
+
+- Multiple inheritance is not allowed in Java
+
+Class A
+-addition()
+
+Class B
+-addition()
+
+Class C extends A, B   //not possible in java
+
+
+-resusability of code
+
+class C 
+5
+
+class A extends C
+12
+
+Class B extends C
+4
+
+
+
