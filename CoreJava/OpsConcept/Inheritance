@@ -24,6 +24,10 @@ public Child extends Father{
 Class A
 -addition()
 
+
+
+
+
 Class B
 -addition()
 
@@ -40,6 +44,66 @@ class A extends C
 
 Class B extends C
 4
+
+
+
+
+
+=============================
+
+
+
+
+
+Interface
+
+interface calculator
+{
+	public static int a=10;
+	
+	public void addition(int a,int b);
+}
+
+
+
+throws:
+
+method level
+
+class Vendor{
+
+
+	public void 
+	public static void main(String[] args){
+	
+	}
+}
+
+class
+
+Registration(id,name,email,password).. boolean adminApproval
+
+login(emailid,password,forgotPassword,question, answer)
+
+QuestionAnswer
+
+Admin
+1 ravi
+2
+1
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
