@@ -1,0 +1,45 @@
+
+
+
+Set 
+-Any type of object you can store (int, Employee, boolean, String)
+-Duplication elements/ Object not allowed (12, 12)
+- Insertion order not preserved 
+- Null allowed (only one time)
+
+
+
+s s1   equals   	hashCode should be queals
+s s1   not equals	hashCode should not be queals
+
+s s1  hash code equals   s s1 may be equals or not
+s s1  hash code not eqauls  s s1 not equals 
+
+
+List 
+--Any type of object you can store (int, Employee, boolean, String)
+-Duplicate elements/ Object allowed (12, 12)
+- Insertion order preserved 
+- Null allowed 
+
+
+ArrayList 
+- searching
+-by default not syncronized
+
+LinkedList 
+-Insertion 
+-by default not syncronized
+
+Vector
+-Syncronized
+
+
+
+
+
+
+
+
+
+
