@@ -6,6 +6,7 @@ public class DataTypeSample  {
 
 	public static void main(String[] args) {
 		//byte --> short --> char --> int --> float--> double--> long
+		//boolean
 		
 		byte b=127; //-128 to 127
 		

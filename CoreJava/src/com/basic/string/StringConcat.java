@@ -24,7 +24,7 @@ public class StringConcat {
 		Long statTime=System.currentTimeMillis();
 		String s1="abc";
 		
-		for (int i = 0; i < 100000; i++) {
+		for (int i = 0; i < 100; i++) {
 			s1=s1.concat(" a");
 		}
 		Long endTime=System.currentTimeMillis();
@@ -35,7 +35,7 @@ public class StringConcat {
 		Long statTime1=System.currentTimeMillis();
 		StringBuffer sb1=new StringBuffer("prasad");
 		
-		for (int i = 0; i < 100000; i++) {
+		for (int i = 0; i < 10000000; i++) {
 			sb1.append(" aa");
 		}
 		Long endTime1=System.currentTimeMillis();
@@ -46,7 +46,7 @@ public class StringConcat {
 		Long statTime2=System.currentTimeMillis();
 		StringBuilder strBui=new StringBuilder("prasad");
 		
-		for (int i = 0; i < 100000; i++) {
+		for (int i = 0; i < 10000000; i++) {
 			strBui.append(" aa");
 		}
 		Long endTime2=System.currentTimeMillis();
