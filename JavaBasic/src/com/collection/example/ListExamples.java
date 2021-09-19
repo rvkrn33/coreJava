@@ -13,8 +13,8 @@ public class ListExamples {
 
 	public static void main(String[] args) {
 		
-		//arrayListExample();
-		listSorting();
+		arrayListExample();
+		//listSorting();
 	}
 
 	private static void listSorting() {
@@ -40,7 +40,8 @@ public class ListExamples {
 
 	private static void arrayListExample() {
 		//ArrayList LinkedList Vector
-		List list=new ArrayList();
+		//List list=new ArrayList();
+		List list=new Vector(); //syncronized -> only one allowed
 		
 		int i=12;
 		Integer num=new Integer(i); //Boxing
