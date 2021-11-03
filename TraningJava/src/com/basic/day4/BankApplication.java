@@ -8,7 +8,7 @@ public class BankApplication {
 	
 	static int recordCount=0;
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws WrongInputException {
 		
 		System.out.println("************Welcome ******************");
 		
@@ -31,7 +31,7 @@ public class BankApplication {
 					case "4": System.exit(0);
 						break;
 					default: print("Wrong choice");
-						break;
+						throw new WrongInputException("Wrong input");
 			}
 		}
 	}
