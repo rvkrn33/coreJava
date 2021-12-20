@@ -1,0 +1,15 @@
+
+Jdk featurs
+Predicate & example
+Consumer & example
+Stream API
+
+How to change port number in Spring Boot application
+What is actuator ?
+What is profile & whats is the use ?
+where we can define profile.active= ??
+What is swagger
+
+Whats is the RestController and (Differece between controller vS RestController)
+Whats is the Microservice Architecture
+In Hibernate How to set second level cache (Where you can configure)

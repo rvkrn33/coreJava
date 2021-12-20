@@ -1,0 +1,52 @@
+Java 8 features
+
+default method and static method
+flatMap in stream API
+
+overriding of Exception handling
+
+class parent{
+	doSome() throws FileNotFoundException
+}
+
+class child {
+	doSome() throws IOException
+}
+
+static overriding possible ?
+------------
+
+Overloading senario
+
+class parent{
+	doSome(Object obj)
+
+	doSome(String s)
+psvm(){
+	doSome(null);
+}	
+}
+---------------------
+
+serilizable
+transient
+volatile
+
+why string is immutable?
+How can you do immutable class.
+
+throw vs throws
+fail-safe vs fail-fast
+HashMap internally works
+ArrayList vs LinkedList
+How to iterate Map
+Object as a key (What are the steps you have follwed )
+deep copy (clonable)
+ 
+
+How to sort arrayList (arrayList having only string objects)
+How to sort arrayList (arrayList having employee objects)
+
+
+
+

@@ -1,0 +1,90 @@
+Cognizant interview questions
+Basic oops concept
+Overriding with static
+String Vs string buffer
+How to implement immutable
+Set implementation how it works
+Comparable Vs comparator where it use
+serilizable
+
+marker interface , how it creates, What is the purpose
+Remove duplicate records in arraylist
+first name last name
+jdk1.8 features
+what is lambda expain with example
+how to achieve multiple inheritance
+stream API with example
+why functional programming
+enumeration Vs iteration
+
+---------------------Spring and spring boot---------------------
+
+difference between IOc and DI
+when you can use constructor injection and when you can use setter injection.
+@primary annotation
+‌scope of bean , by default scope
+-----------------------------------
+@service Vs @component
+@Component is a generic stereotype for any Spring managed component.
+@Component – Indicates a auto scan component.
+@Repository – Indicates DAO component in the persistence layer.
+@Service – Indicates a Service component in the business layer.
+@Controller – Indicates a controller component in the presentation layer
+
+We can directly use @Component for each and every bean, but for better understanding and maintainability of a large application, we use @Controller, @Service, @Repository
+Spring only pick up and registers beans with @Component  and doesn't look for @Service and @Repository in general.
+
+They are registered in ApplicationContext because they themselves are annotated with @Component:
+
+@Component
+public @interface Service {
+}
+@Component
+public @interface Repository {
+}
+
+@Service and @Repository are special cases of @Component. They are technically the same but we use them for the different purposes.
+
+------------------------------
+conponentScan vs component 
+Define @ComponentScan(“com.in28minutes.springboot”) 
+This would scan the entire parent tree of com.in28minutes.springboot.
+Or define two specific Component Scans by using an array. 
+@ComponentScan({“com.in28minutes.springboot.basics.springbootin10steps”,”com.in28minutes.springboot.somethingelse”})
+@Component indicates that a class might be a candidate for creating a bean. It's like putting a hand up.
+@ComponentScan is searching packages for Components. Trying to find out who all put their hands up.
+
+@ComponentScan scans all the class files specified under the base package i.e. search for the files under this package for any annoted java files with @Component, @Repository, @Service and @Controller and if it finds any of them it will register it into the bean factory.
+
+--------------------------------
+how to handle exception in spring boot
+which annotations you have used for exception
+why we use spring boot
+@springBootapplication meaning (@Configuration,@EnableAutoConfiguration,@ComponentScan)
+‌spring boot starter ()
+embedded server
+‌how it remove and add new server
+actuator
+singleton pattern same for java and spring ?
+
+
+---------------------Rest API---------------------
+TDD -  test driven design
+methods (post,Put,delete,get,patch,options)
+what is patch
+rest API approach (rules)
+
+-----------------Microservice-------------
+Microservice advantages, disadvantages
+circuit breaker pattern
+how to handle exception
+how to review or check code quality
+which tools you have used for cd / ci
+encryption Vs hashing
+
+---------------------Personal ---------------------
+current version jdk in market
+how to learn new technologies
+‌in this lock down period which technology you have learn
+how to upgrade yourself
+‌
