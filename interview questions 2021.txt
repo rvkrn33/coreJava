@@ -1,0 +1,394 @@
+
+
+Stub vs Mock
+What is law of Demeter ?
+SOLID Principle?
+Git workflow
+Callable and runnable
+Executive, future
+Open /close principal
+
+Abstract class vs interface ? when to use what ?
+String is  immuatable ?- in depth
+Why are String objects immutable?
+How to create an immutable class?
+What is string constant pool?
+What code is written by the compiler if you concatenate any string by + (string concatenation operator)?
+What is the difference between StringBuffer and StringBuilder class?
+String buffer vs string builder
+toString() is being overridden why ?
+Polymorphism
+Method overhiding ?
+
+Composition  vs aggregation stream
+Composition vs inheritance
+Synchronization
+Thread question
+
+ThreadLocal
+Thread class and Runnable interface diff
+Thread Schedular?
+
+
+Java Monitors Are Reentrant
+Memory management in java- in depth
+Serialization
+Transient
+Producer – consumer problem in java using multithreading
+System.gc how does it work ?
+
+Why hashcode and equals method should be overridden together ?
+What method of object class we override ?
+How many ways we can create object ?- 5  , new, newInstance, clone, deserialization
+InstanceOf and isInstance() difference ?
+ Loose coupling tight coupling
+ Int and Integer overloading
+Wait and sleep
+Deadlock Vs Starvation
+Concepts of oops
+Difference between callable and Runnable in threads
+Feature of diff java version
+Explicit casting and implicit casting
+Custom exception handling
+Throw and throws
+Which collection maintains insertion order and how can we make any collection synchronize.
+Diff between hashset and linkedhashset
+Set vs multiset
+Multiset vs multiMap vs multiList
+https://github.com/google/guava/wiki/NewCollectionTypesExplained
+
+ 
+ 
+MultipMap and Implementation in Java.
+Diff between ArrayList vs LinkedList
+Copyonwritearraylist in java
+https://docs.oracle.com/javase/7/docs/api/java/util/concurrent/CopyOnWriteArrayList.html
+
+https://netjs.blogspot.com/2016/03/concurrentskiplistmap-in-java.html
+
+ 
+
+Collision in hashmap and how java avoid it
+How hashmap deals with duplicates
+Hashmap implementation
+http://javabypatel.blogspot.com/2015/10/how-hashmap-works-internally-explain-relation-with-hashcode-and-equals-method.html
+
+The concept of hashing
+Collision resolution in HashMap
+Use of equals () and hashCode () and their importance in HashMap?
+The benefit of the immutable object?
+Race condition on HashMap  in Java
+Resizing of Java HashMap
+Hshmap Vs ConcurrentHahmap Vs SynchronisedMap
+ConcurrentSkipListMap
+https://javapapers.com/java/java-concurrentskiplistmap/
+
+ 
+
+Marker interface
+Shallow Copy Vs Deep Copy
+Use of Equals and Hashcode Method in Hibernate
+Stack vs vector
+In java  u need to fetch the data from some tables and output to CSV file
+How do u call a procedure from java
+How do u make connection
+Generics in java
+CyclicBarrier in Java
+ReentrantLock
+Design pattern
+Singleton ,factory design pattern
+Serialization with Singleton pattern  ? what will happen ?
+Prepared statement and statement difference
+Driver name of JDBC
+Order the string list
+Find if the string has all the alphabets or not
+Comparator vs comparable
+How concurrent hashmap works ?
+HashMap Changes in JDK 1.7 and JDK 1.8
+Reflection in java
+Serialization vs externalization
+Class Loader
+Fail fast vs fail safe
+Weak reference vs strong reference
+How hashcode is printed ( the internal mechanism )? and also what difference does it make when we do not override it ?
+Noclassdefound error vs noclassdefinitionfound error
+Shutdown hook- JVM shutdown hook to do task before jvm shuts down
+Collection Questions:
+
+ConcurrentSkipListSet
+ConcurrentSkipListMap
+IdentityHashMap, WeakHashMap
+Diff between Clear and RemoveAll() in arryalist.
+Collections.singleton() method:
+java.util.Collections.singleton() method is a java.util.Collections class method. It creates a immutable set over a single specified element. An application of this method is to remove an element from Collections like List and Set.
+
+Example:
+myList : {"Geeks", "code", "Practice", " Error",  "Java",
+          "Class", "Error", "Practice", "Java" }
+
+To remove all "Error" elements from our list at once, we use
+singleton() method
+myList.removeAll(Collections.singleton("Error"));
+
+After using singleton() and removeAll, we get following.
+{"Geeks", "code", "Practice", "Java", "Class", "Practice", "Java" }
+
+ 
+
+--Can be used with removeAll() and retainAll()
+
+ 
+
+ArrayList spliterator() Method:
+How to calculate Time Complexity of any method?
+ 
+
+ 
+
+ 
+
+Java 8
+
+Method refrence
+Stream API
+Filter method
+Count
+Peek
+Map
+Collect
+forEach method
+Lambda expression
+Default method
+Static method
+Optional class
+
+Servlet side programming
+Session management
+Servlet and its life cycle- init , service, destroy , garbage collector
+Servlet Filter
+ 
+
+microservices
+
+What is microservices
+What are the jars for microservices – jaxrs ,jersey
+Rest vs soap
+Microservices vs web services
+Event sourcing and CQRS ?
+Stateless vs stateful
+Queryparam vs path param
+Application server vs web server
+Put vs patch service- patch is non idempotent
+What is idempotent in java ? – doing same thing again and again and getting same result
+Post and put
+Can we bookmark the post method microservices
+Fault tolerance vs High availability
+
+Spring framework
+Dependency injection
+Inversion of control
+Life cycle of spring
+AOP
+Exception handling
+Various Security implementation
+Interceptors (pre, post , after )  
+
+Hibernate framework
+What is JPA
+What is ORM
+Merge and refresh
+Relationship 1-many,many-many,1-1
+Hibernate Entity / Persistence LifeCycle States
+Get  vs load
+ 
+
+ 
+
+Miscellaneous
+
+JWT  implementation +  concept
+Oauth 2.0 – implementation + concept
+Digest- concept
+
+
+
+Data structure
+Linklist
+Single link list
+Doubly link list
+Circular link list
+Stack
+Queue
+Deque
+Arrays
+Sorting algorithm
+Bubble- compare adjacent number and swap till its get sorted;
+Insertion- insert the number in sorted array from unsorted array
+Selection- select the number and place it to its original place
+Quick sort- take pivot and place it on its original place and place the number less than to  this to left and greater  than this  to right. 
+Merge- divide and conquer
+Heap- use max binary heap tree and replace the root with its leaf and again heapify it.
+ 
+
+Ans -
+
+ How inheritance can be dangerous ?
+
+Lets take an example
+
+public class X{   
+
+   public void do(){   
+
+   }   
+
+}   
+
+Public Class Y extends X{
+
+   public void work(){   
+
+       do();   
+
+   }
+
+}
+
+1) As clear in above code , Class Y has very strong coupling with class X. If anything changes in superclass X , Y may break dramatically. Suppose In future class X implements a method work with below signature
+
+public int work(){
+
+}
+
+Change is done in class X but it will make class Y uncompilable. SO this kind of dependency can go up to any level and it can be vary dangerous. Every time superclass might not have full visibility to code inside all its subclasses and subclass may be keep noticing what is happening in suerclass all the time. So we need to avoid this strong and unnecessary coupling.
+
+How does composition solves this issue?
+
+Lets see by revising the same example
+
+public class X{
+
+    public void do(){
+
+    }
+
+}
+
+ 
+
+Public Class Y{
+
+    X x=new X();   
+
+    public void work(){   
+
+        x.do();
+
+    }
+
+}
+
+Here we are creating reference of X class in Y class and invoking method of X class by creating an instance of X class. Now all that strong coupling is gone. Superclass and subclass are highly independent of each other now. Classes can freely make changes which were dangerous in inheritance situation.
+
+2) Second very good advantage of composition in that It provides method calling flexibility For example
+
+class X implements R
+
+{}
+
+class Y implements R
+
+{}
+
+ 
+
+public class Test{   
+
+    R r;   
+
+}
+
+In Test class using r reference I can invoke methods of X class as well as Y class. This flexibility was never there in inheritance
+
+3) Another great advantage : Unit testing
+
+public class X{
+
+    public void do(){
+
+    }
+
+}
+
+ 
+
+Public Class Y{
+
+    X x=new X();   
+
+    public void work(){   
+
+        x.do();   
+
+    }   
+
+}
+
+In above example If state of x instance is not known ,it can easily be mocked up by using some test data and all methods can be easily tested. This was not possible at all in inheritance As you were heavily dependent on superclass to get the state of instance and execute any method.
+
+4) Another good reason why we should avoid inheritance is that Java does not support multiple inheritance.
+
+Lets take an example to understand this :
+
+Public class Transaction {
+
+    Banking b;
+
+    public static void main(String a[])   
+
+    {   
+
+        b=new Deposit();   
+
+        if(b.deposit()){   
+
+            b=new Credit();
+
+            c.credit();   
+
+        }
+
+    }
+
+}
+
+Good to know :
+
+composition is easily achieved at runtime while inheritance provides its features at compile time
+composition is also know as HAS-A relation and inheritance is also known as IS-A relation
+So make it a habit of always preferring composition over inheritance for various above reason
+
+
+
+SQL: 
+
+Unique key vs primary key
+Constraint
+Dense rank vs rank
+Ddl ,dml , tcl
+Acid
+Normal forms
+Index and type of index in db
+Does truncate delete the  data from disk file as well ?
+Truncate vs delete
+Watermark ?
+Cursor
+Function and procedure
+Triggers
+Transaction management
+Find second lowest salary from table
+Select unique records from table
+Count of that duplicate records
+Savepoints
+Difference between procedure and function.
+

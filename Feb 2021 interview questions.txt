@@ -1,0 +1,58 @@
+
+
+
+2 Feb 
+Finastra.com
+
+Role and Technologies and functuinality of projects
+immutability and how its acheivable (Can you do collection as unmodified)
+Rest 
+how to maitain security in your projects
+How to handle transactions in your project
+Difference between @pathParam vs @param
+What is the flow of any request
+How to generate response  and send it.
+How to validate your request
+How to Prepare query for byName
+Different annotations in springBoot.
+
+
+Capgemini
+
+Tell me about yourself
+Why we need lambda expressions
+tell me jdk1.8 features
+I have employees list, I want to search by age 
+What is the MVC flow for login application
+What is the starting point of springBootApplication 
+REST API end point 
+Annotations in Spring MVC
+Mapping methods in spring boot
+What is the Cache in hibernate
+What is lazy loading in hibernate
+When you use List,set, Map
+Lambda expression ..Where you have to used in your project.
+
+
+
+
+
+TransUnion
+
+Tell me abount skill sets
+Project flow
+StringBuffer vs StringBuilder
+Jdk 1.8 features
+Stream API
+Parrallel stream API
+
+@component, @service, @configuration, @configurable
+Rest API Rules
+How to avoid null and empty values from URL
+How to upload file
+How to upload and download api
+How to call URI from java
+Rest http methods get,put, post, patch, delete, options
+
+
+

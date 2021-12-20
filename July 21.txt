@@ -1,0 +1,90 @@
+Imphais
+L1
+1. project end to end flow
+2. Which tools you have used
+3. Give me rating for 
+core java(4/5)
+spring(4/5)
+spring boot (3.5/5)
+microservices (3.5/5)
+Junit (4/5)
+Hibernate/JPA (3.5/5)
+CI/CD (3/5)
+RabitMq (3/5)
+Sql/procedures(3/5)
+
+1. Write lambda expression code
+2. jdk1.8 feature you have used in project (stream and lambda exp and options)
+3. Write a program for getEmpName("ravi") if found then get it to String otherwise throw exception using stream API
+4. HahshMap internal working in depth
+5. ArrayList vs Linked list (comparison) When you used ?
+6. How to write custome immutable class, Please write. 
+7. Write Singleton code
+
+
+Spring boot
+8. What is the controller and Can we write same endpoints 
+9. We have 2 main spring boot classes then jvm which take ? --> I need to check 
+10. Spring boot features
+
+11. Write Junit for controller... specific to enpoint
+12. compared two objects using AssertEquals but its not equal for same class?  --> Need to implement hashCode() and equals() method.
+12. write code for one to many mapping 
+13. when you fetch then If you want to skip record of address then How will prepare 
+14, Lazy vs Egar loading in hibernate
+
+15. End to end jenkins jobs 
+16. How to use SonarQube 
+17. Deploy your application on PCF then tell me the basic command
+19. RabitMq configuration on PCF
+======================================================================================================================
+
+Wipro 
+L1
+1. Jdk1.8 features
+2. Options and its methods
+3.Funtional interfaces
+4.Custome functional interfaces
+5. I have interface but i have not used @funtionalInterface then it will be consider as functional interface or not ?
+6. Static method vs Default method in jdk1.8
+7. We have two lambda expresssions L1(a,b) and L2 can we use a, b variable in L2 expression. --> No (It is restricted)
+8. Dat time API changes and Which methods used in your project
+9.Expain Stream API
+10. What is mean by sorted, filter, map, flatMap, forEach, collect
+12. peek ?
+13. filter vs distinct ?
+14. Filter with example
+
+15. Explain spring framework (containers) and modules
+16. Dependecy injection
+17. Scopes
+18. wiring types
+19. bea life cycle
+20. Lazy loading ? Can we confirure lazy loading for component ?
+
+21 which Junit version u have used? 
+22. How you have done JPA testing ... write test cases for JPA repositories?
+23. Mockito Annotations and Annotations
+24. Mock bean vs Mock annotation
+
+25. What is spring boot 
+24. How autoconfigure happns
+
+
+Wipro
+L2
+Skill sets
+1. JVM Architecture (classloader, methodArea, heap, stack, pc-register, native) Interpretor, JIT
+2. Interpreter vs Just in time compiler
+3. Exception vs Error
+4. Can we handle error ?? If error comes in application then need to restart server or not??
+5. ArrayList vs Linked list internal implementation. When you can use  ArrayList and linked list?
+6. What is mean by Multithreading ? give me a real usage.
+7. How to do thread commmunication ? How to get all result threads in a single output. 
+8. We have for loop and iterate list using arrayList and insert data into Linked list ? How we can improve performance? What do you think about it ?
+9. How to start container like tomcat? what is the command ?
+10. linux command -> I want to get list of running container .. please tell me the command.
+11. File I/O . What fileReader vs InputsreamReader
+============================================================================================================================================================
+
+

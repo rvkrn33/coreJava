@@ -1,0 +1,68 @@
+
+
+ArrayList<String> list=new ArrayList();
+
+list.add("Amar");
+
+
+
+ Program to print the highest occurrence string
+i/p: I love programming
+I love programming
+I love programming
+ 
+I love java
+o/p : 3 : I love programming
+2 : I love java
+
+
+String[] a={"I love programming", "I love programming", "I love java", "I love java"};
+
+for(int i=0; i<a.length();i++){
+	
+	if(a[i].len
+}
+
+
+
+
+ Program to remove consecutive duplicates
+i/p : I love love programming. I love java java.
+o/p : I love programming. I love java.
+
+
+
+String s="I love love programming. I love java java.";
+String[] a=s.split(" ");
+for(int i=0; i<a.lenght();i++){
+	if(st[i].equals(st[i++]){
+		
+	}
+}
+
+
+
+
+Abstract vs Interfaces Use cases
+Syncronization ..Multithreading environment
+if 2 thread is there how its work in syncronization
+comparable vs comparator
+ArrayList internal add working
+String programs
+SOLID Prenciples
+How Transaction works in spring
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

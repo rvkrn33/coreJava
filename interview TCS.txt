@@ -1,0 +1,74 @@
+
+
+Please tell me the project details.
+Its a pure development.
+In that project, My role would be.
+
+what is the technologies? you have used.
+
+
+
+Cognizant
+Monolitic vs Microservices
+Junit test cases
+How to prepare Mock server
+How to write test cases for dependency objects
+config server Why we use?
+How to communicate or How to identify the one service to another in Eureka 
+What is the Ioc container and their types
+What is the singleton design pattern
+What is the factory design pattern
+how security you can acheive in your project
+How we can add certificate in project
+What is hystrix
+What is circuit breaker
+What is  zuul 
+what is JMS
+Indexing
+Performance tuning (is there any tool you have used?)
+How can you create datasource through autoconfiguration or manual
+Mainfeast file
+pipeline file
+Loadbalancing client side and server side, How we can manage loadbancing for depenent Microservices
+
+
+
+
+TCS internal
+
+can we call subclass constructor from super class constructor and vice varsa
+Can we declare constructor as private or protected
+Desstructor in java
+Can we declare interface as abstaract or protected  
+What type of variable declare in interface
+Array vs LinkedList (Performance wise)
+How to sort without any method 
+String senarios 
+String s="abc";
+String s1="abc";
+What will be the output
+
+Co-varient overriding
+What is the use of Overrriding vs overhinding
+
+JVM is abstraction or implemetation
+
+Swap two numbers
+Call by value or call by reference
+operator overloading in java
+Checked vs unchecked exception
+Callstack flow
+Syncronization internal implementation 
+How to lock object
+functional interface and lambda expression
+How to define custom exception class
+if try having return statement.. finally block execute or not ?? what is the flow?
+mainfeast file use
+ 
+
+How to avoid conflicts and resolve through Git
+Weekly scheduled backup or trigger jobs in jenkins
+Autoboxing and unboxing 
+
+Arraylist ... How to indenfied data type. 
+If you have 2000 microservices in PCF, How to check status for all without login of PCF.
